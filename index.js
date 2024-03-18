@@ -26,3 +26,4 @@ function calculateTotal() {
     let totalAmount = subtotal + tipAmount;
     document.getElementById("totalAmount").innerHTML = `Total Amount (including tip): $${totalAmount.toFixed(2)}`;
 }
+
